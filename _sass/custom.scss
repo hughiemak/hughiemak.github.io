@@ -1,3 +1,21 @@
 .site-header { border-top: 5px solid white; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
 
 a:hover,.site-title:hover { color: #111; text-decoration: None}
+
+.site-footer > p {
+    position:relative;
+    text-align:center;
+    font-size: 12px;
+}
+
+p {
+    text-align: justify;
+}
+
+.img_container > p {
+    text-align: center;
+}
+
+h3, h4 {
+    font-weight: bold
+}
