@@ -16,8 +16,14 @@ p {
     text-align: justify;
 }
 
-.img_container > p {
-    text-align: center;
+// .img_container > p {
+//     text-align: center;
+// }
+
+.center {
+    // text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 h2, h3, h4 {
