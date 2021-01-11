@@ -2,7 +2,6 @@
 layout: post
 title:  "Importance Sampling in Off-Policy Reinforcement Learning Algorithms"
 date:   2021-01-08 09:32:17 +0800
-categories: jekyll update
 ---
 Importance sampling is a technique often used in off-policy reinforcement learning algorithms. Off-policy algorithms are characterized by the use of two policies. One that is used to collect data through interaction with the environment, called the behavior policy. And another that is being learned, called the target policy. Since the policy used to generate learning data is different from that which is being learned, the data must be adjusted before they can be used to improve the target policy. This is where importance sampling comes into play.
 
