@@ -12,7 +12,7 @@ layout: default
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.categories.public %}
+    {% assign posts = site.posts %}
   {% endif %}
 
   {%- if posts.size > 0 -%}

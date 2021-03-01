@@ -11,7 +11,7 @@ The purpose of importance sampling is to estimate expected values under one dist
 
 The expected value $$\textbf{E}_g[X]=\sum_x x g(x) = \sum_x \frac{g(x)}{f(x)} f(x) = \textbf{E}_f[x\frac{g(x)}{f(x)}]$$ can be approximated by $$\frac{1}{n}\sum_{i=1}^{n} x\frac{g(x_i)}{f(x_i)}$$. The $$\frac{g(x_i)}{f(x_i)}$$ part in the summation is called the importance-sampling ratio. As long as the importance-sampling ratios are known, we can estimate the value of $$\textbf{E}_g[X]$$ with samples obtained from the other distribution, $$f(x)$$. In this example, the sampling ratio corresponding to $$x_i=1$$ is $$\frac{g(1)}{f(1)}=\frac{0.6}{0.3}=2$$. Thus, if the samples generated under $$f(x)$$ are $$2,3,3,1,3,3$$, the estimate of $$\textbf{E}_g[X]$$ would be $$\frac{1}{6}(1\cdot 2+2\cdot 1.5 + 3\cdot 0.2\cdot 4) = 1.233$$.
 <br>
-<h4>Application of Importance Sampling in Off-policy Learning</h4>
+### Application of Importance Sampling in Off-policy Learning
 Starting in state $$S_t$$ and following the target policy $$\pi$$, a subsequent state-action trajectory $$A_t, S_{t+1}, A_{t+1}, ..., S_T$$ has probability
 
 $$\begin{align*}&\textbf{P}_\pi[A_t, S_{t+1}, A_{t+1}, ..., S_T \mid S_t]\\

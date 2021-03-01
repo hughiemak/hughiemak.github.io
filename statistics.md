@@ -1,0 +1,5 @@
+---
+layout: statistics
+permalink: /statistics/
+---
+

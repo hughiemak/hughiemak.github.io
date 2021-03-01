@@ -2,9 +2,25 @@
 
 a:hover,.site-title:hover { color: #111; text-decoration: None}
 
-// body {
+body {
+    text-align: justify;
 //     font-family: 'EB Garamond', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
-// }
+}
+
+.site-header {
+    border-top: 1px;
+    background-color: #00506e;
+}
+
+.site-title, .site-title:visited { 
+    // font-family: Raleway, Inconsolata, Ubuntu Mono; 
+    font-weight: bold;
+    color: white;
+}
+
+.site-title:hover {
+    color: #c9c9c9;
+}
 
 .site-footer > p {
     position:relative;
@@ -12,9 +28,10 @@ a:hover,.site-title:hover { color: #111; text-decoration: None}
     font-size: 12px;
 }
 
-p {
-    text-align: justify;
-}
+// p {
+//     text-align: justify;
+//     // margin-bottom: 0;
+// }
 
 // .img_container > p {
 //     text-align: center;
@@ -26,12 +43,13 @@ p {
     margin: 0 auto;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-weight: bold;
+    text-align: left;
 }
 
 // .MathJax {
-//     font-size: 2.2em !important;
+//     font-size: 1px !important;
 // }
 
 .post-title {
@@ -43,8 +61,39 @@ a { color: #00688e; text-decoration: none; }
 
 a:visited { color: #00688e; }
 
-a:hover, .site-title:hover { color: #111; text-decoration: None; }
+a:hover { color: #111; text-decoration: None; }
 
 .post-link { font-size: 22px; }
 
-.site-title { font-family: Ubuntu Mono; font-weight: bold;}
+blockquote {
+    font-style: normal;
+}
+
+.algo, .box {
+    border: 1px solid #eef;// e8e8e8
+    border-radius: 5px;
+    padding: 8px 12px; 
+    background: #00506e; //eef
+    margin-bottom: 15px; 
+    color: white;
+    font-size: 15px;
+}
+
+.box2 {
+    border: 0px solid; //ffb669
+    border-radius: 5px;
+    padding: 8px 12px; 
+    background: #e6e6e6; //ffd4a6
+    margin-bottom: 15px; 
+    font-size: 15px;
+}
+
+.algo > p, .box > p, .box2 > p {
+    margin-bottom: 0;
+    // font-family: monospace;
+    
+}
+
+.red {
+    color: red;
+}

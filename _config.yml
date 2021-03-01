@@ -35,9 +35,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+markdown: kramdown
+
 kramdown:
   parse_block_html: true
-  hard_wrap: true
+  # hard_wrap: true
 
 header_pages:
   # - Study
