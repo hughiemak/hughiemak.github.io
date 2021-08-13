@@ -4,7 +4,7 @@ title:  "The Last Marble"
 date:   2021-01-13
 ---
 
-I come across [a video](https://www.youtube.com/watch?v=ZMVkPp_csZ0&ab_channel=%E5%9B%9B%E9%83%8E%E8%AE%B2%E6%A3%8B){:target="_blank"} about an endgame problem in Xiangqi (the Chinese chess). In this problem, there is a winning strategy for the side (red side) that moves first. Lying at the heart this problem is another problem that can be visualized as a simple marble game. The game starts with two jars of marbles such that at least one jar is non-empty. Two players take turns to pick one of the two jars and draw $n ≥ 1$ marbles from the chosen jar. The one who takes the last marble wins.
+I come across [a video](https://www.youtube.com/watch?v=ZMVkPp_csZ0&ab_channel=%E5%9B%9B%E9%83%8E%E8%AE%B2%E6%A3%8B){:target="_blank"} about an endgame problem in Xiangqi (the Chinese chess). In this problem, there is a winning strategy for the side (red side) that moves first. Lying at the heart of this problem is another problem that can be visualized as a simple marble game. The game starts with two jars of marbles such that at least one jar is non-empty. Two players take turns to pick one of the two jars and draw $n ≥ 1$ marbles from the chosen jar. The one who takes the last marble wins.
 
 It can be proved that the player that makes the first draw will win if and only if the two jars have unequal number of marbles. The following proof is adapted from [an answer to a similar marble problem by user PSPACEhard on Mathematics Stackexchange](https://math.stackexchange.com/questions/1426142/is-there-any-winning-strategy-2015-and-game-with-marbles){:target="_blank"}.
 

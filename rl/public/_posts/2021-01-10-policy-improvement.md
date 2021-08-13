@@ -23,3 +23,7 @@ v_\pi(s) &\leq q_\pi(s, \pi^\prime(s))\\
 &\leq \mathbb{E}_{\pi^\prime}[R_{t+1}+\gamma R_{t+2} + \gamma^2 R_{t+3} + \gamma^3 R_{t+4} + ... \mid S_t=s]\\
 &=v_{\pi^\prime}(s)
 \end{align}$$
+
+<h3>References</h3>
+
+1. Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction; 2nd Edition. 2017.

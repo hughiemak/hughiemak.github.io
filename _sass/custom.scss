@@ -7,20 +7,24 @@ body {
 //     font-family: 'EB Garamond', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
 }
 
+.page-link {
+    color: white;
+}
+
 .site-header {
     border-top: 1px;
-    background-color: #00506e;
+    // background-color: #00506e;
 }
 
 .site-title, .site-title:visited { 
     // font-family: Raleway, Inconsolata, Ubuntu Mono; 
     font-weight: bold;
-    color: white;
+    // color: white;
 }
 
-.site-title:hover {
-    color: #c9c9c9;
-}
+// .site-title:hover {
+//     color: #c9c9c9;
+// }
 
 .site-footer > p {
     position:relative;
