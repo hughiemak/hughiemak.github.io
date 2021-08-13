@@ -1,6 +1,7 @@
----
+<!-- ---
 layout: study
-<!-- title: Study -->
+title: Study
 permalink: /study/
 ---
 
+ -->

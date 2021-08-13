@@ -1,5 +1,6 @@
----
+<!-- ---
 layout: all
-<!-- title: All -->
+title: All
 permalink: /all/
 ---
+ -->
