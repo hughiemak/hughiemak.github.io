@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ### >> DQN in Multi-Agent Reinforcement Learning
-In my final year project, I implemented the predator prey environment and independent DQNs to solve it. The predator prey environment is a sparse reward problem in which multiple agents have to capture a randomly moving prey by surrounding it in a toroidal grid world. I investigated techniques such as action advising, hindsight experience replay, and random network distillation.
+In my final year project, I implemented the predator prey environment and independent DQNs to solve it. The predator prey environment is a sparse reward problem in which multiple agents have to capture a randomly moving prey by surrounding it in a toroidal grid world. Furthermore, I explored techniques such as action advising, hindsight experience replay, and random network distillation.
 
 ### >> Solving Chomp with Policy Iteration
 
@@ -33,7 +33,7 @@ Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegress
 
 A real-time web app for playing Reversi using Socket.IO. Players can create rooms/join rooms to play with others over the internet. They can chat with their opponents and create accounts to view their game statistics.
 
-[[App](https://hughiemak.github.io/reversi/){:target="_blank"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target="_blank"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target="_blank"}] [[Auth Code](https://github.com/hughiemak/reversi-auth){:target="_blank"}]
+[[App](https://hughiemak.github.io/reversi/){:target="_blank"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target="_blank"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target="_blank"}] [[Auth Server Code](https://github.com/hughiemak/reversi-auth){:target="_blank"}]
 
 ### >> Xiang Qi Simulator
 Xiang Qi (the Chinese chess) is a popular board game in Asia. This is a simple web simulator for Xiang Qi.
