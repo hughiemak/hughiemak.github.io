@@ -4,10 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-### >> DQN in Multi-Agent Reinforcement Learning
+#### >> DQN in Multi-Agent Reinforcement Learning
 In my final year project, I implemented the predator prey environment and independent DQNs to solve it. The predator prey environment is a sparse reward problem in which multiple agents have to capture a randomly moving prey by surrounding it in a toroidal grid world. Furthermore, I explored techniques such as action advising, hindsight experience replay, and random network distillation.
 
-### >> Solving Chomp with Policy Iteration
+#### >> Solving Chomp with Policy Iteration
 
 A personal project in which I recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target="_blank"} using policy iteration.
 
@@ -15,13 +15,13 @@ A personal project in which I recover the nontrivial winning strategy of the fir
 
 
 
-### >> Low-Resource NMT system for Chinese-to-Cantonese Translation
+#### >> Low-Resource NMT system for Chinese-to-Cantonese Translation
 
 A summer research internship in which I trained a Transformer for translating text from the written language (Chinese) to the spoken language (Cantonese) in Hong Kong. 
 
 Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to increase the amount of training data by mining semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia.
 
-### >> Visualizing Linear and Logistic Regression
+#### >> Visualizing Linear and Logistic Regression
 
 Interactive visualization of linear regression and logistic regression (motivated by tutorials from YouTube channel *The Coding Train*).
 
@@ -29,13 +29,13 @@ Linear Regression: [[App](https://hughiemak.github.io/VisualizeLinearRegression/
 
 Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target="_blank"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target="_blank"}]
 
-### >> Real-Time Reversi Web App
+#### >> Real-Time Reversi Web App
 
-A real-time web app for playing Reversi using Socket.IO. Players can create rooms/join rooms to play with others over the internet. They can chat with their opponents and create accounts to view their game statistics.
+A web app for playing Reversi built with Socket.IO. Players can create rooms/join rooms and play with others in real time over the internet. They can also chat with others and create accounts to view their game statistics.
 
 [[App](https://hughiemak.github.io/reversi/){:target="_blank"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target="_blank"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target="_blank"}] [[Auth Server Code](https://github.com/hughiemak/reversi-auth){:target="_blank"}]
 
-### >> Xiang Qi Simulator
+#### >> Xiang Qi Simulator
 Xiang Qi (the Chinese chess) is a popular board game in Asia. This is a simple web simulator for Xiang Qi.
 
 [[App](https://hughiemak.github.io/xiangqi/){:target="_blank"}] [[Code](https://github.com/hughiemak/xiangqi){:target="_blank"}]
