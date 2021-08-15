@@ -9,7 +9,7 @@ In my final year project, I implemented the predator prey environment and indepe
 
 #### >> Solving Chomp with Policy Iteration
 
-A personal project in which I recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target="_blank"} through self-play using policy iteration.
+A personal project in which I applied policy iteration to recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target="_blank"} via self-play.
 
 [[Report](https://gist.github.com/hughiemak/58bca80976cc3c7dc1dbbafce6fed0f6){:target="_blank"}] [[Code](https://github.com/hughiemak/chomp){:target="_blank"}]
 
