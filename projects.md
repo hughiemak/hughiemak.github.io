@@ -18,7 +18,7 @@ A personal project in which I applied policy iteration to recover the nontrivial
 
 
 
-#### >> Low-Resource NMT system for Chinese-to-Cantonese Translation
+#### >> Low-Resource NMT System for Chinese-to-Cantonese Translation
 
 A summer research internship in which I trained a Transformer for translating text from the written language (Chinese) to the spoken language (Cantonese) in Hong Kong. 
 
