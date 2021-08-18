@@ -4,8 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-#### >> DQN in Multi-Agent Reinforcement Learning
-In my final year project, I implemented the predator prey environment and independent DQNs to solve it. The predator prey environment is a sparse reward problem in which multiple agents have to capture a randomly moving prey by surrounding it in a toroidal grid world. 
+#### >> Deep Q-Learning in Multi-Agent Reinforcement Learning
+I implemented the predator prey environment and independent DQNs to solve it. The predator prey environment is a sparse reward problem in which multiple agents have to capture a randomly moving prey by surrounding it in a toroidal grid world. 
 <!-- Furthermore, I explored techniques such as action advising, hindsight experience replay, and random network distillation. -->
 
 [[Code](https://github.com/hughiemak/predator-prey){:target="_blank"}]
