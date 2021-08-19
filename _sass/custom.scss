@@ -22,6 +22,32 @@ body {
     // color: white;
 }
 
+.project-item-container {
+    // min-height: 140px; 
+    // margin-bottom: 1rem; 
+    overflow: hidden;
+}
+
+.project-item-img-container {
+    float: left; 
+    width: 20%;
+}
+
+.project-item-img {
+    display: block;
+    margin: auto;
+}
+
+.project-item-text-container {
+    float: right; 
+    width: 80%;
+}
+
+.project-item-text {
+    margin-left: 1rem;
+}
+
+
 // .site-title:hover {
 //     color: #c9c9c9;
 // }
