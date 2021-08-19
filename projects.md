@@ -58,13 +58,17 @@ Parallel text resources in Chinese and Cantonese are scarce. In addition to coll
 Interactive visualization of linear regression and logistic regression (motivated by tutorials from YouTube channel *The Coding Train*).
 
 {% include project-item.html 
-content="Linear Regression: [[App](https://hughiemak.github.io/VisualizeLinearRegression/){:target=\"_blank\"}] [[Code](https://github.com/hughiemak/VisualizeLinearRegression){:target=\"_blank\"}]"
+content="Linear Regression
+
+[[App](https://hughiemak.github.io/VisualizeLinearRegression/){:target=\"_blank\"}] [[Code](https://github.com/hughiemak/VisualizeLinearRegression){:target=\"_blank\"}]"
 img="../assets/images/projects/linear-regression.png" %}
 
 <!-- Linear Regression: [[App](https://hughiemak.github.io/VisualizeLinearRegression/){:target="_blank"}] [[Code](https://github.com/hughiemak/VisualizeLinearRegression){:target="_blank"}] -->
 
 {% include project-item.html 
-content="Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target=\"_blank\"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target=\"_blank\"}]"
+content="Logistic Regression
+
+[[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target=\"_blank\"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target=\"_blank\"}]"
 img="../assets/images/projects/logistic-regression.png" %}
 
 <!-- Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target="_blank"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target="_blank"}] -->
