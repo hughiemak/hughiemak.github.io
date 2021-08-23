@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Monte Carlo Methods"
+title:  "Monte Carlo Methods (Sutton & Barto)"
 date:   2021-01-14 00:00
 ---
 

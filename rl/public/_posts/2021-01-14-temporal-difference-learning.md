@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Temperal Difference Learning"
+title:  "Temperal Difference Learning (Sutton & Barto)"
 date:   2021-01-14 00:01
 ---
 
@@ -59,10 +59,10 @@ $$Q(S_t,A_t) \leftarrow Q(S_t,A_t)+\alpha[R_{t+1}+\gamma \max_a Q(S_{t+1},a)-Q(S
 ### 6.6 Expected SARSA
 * Consider the learning algorithm that is just like Q-learning except that instead of the maximum over next state–action pairs it uses the expected value, taking into account how likely each action is under the current policy.
 
-$$\begin{align}
+$$\begin{align*}
 Q(S_t, A_t) &\leftarrow Q(S_t, A_t)+\alpha[R_{t+1}+\gamma \E_\pi[Q(S_{t+1},A_{t+1})\mid S_{t+1}]-Q(S_t, A_t)]\\
 &\leftarrow Q(S_t,A_t) + \alpha[R_{t+1}+\gamma \sum_a \pi(a\mid S_{t+1})Q(S_{t+1}, a)-Q(S_t, A_t)]
-\end{align}$$
+\end{align*}$$
 
 ### 6.7 Maximization Bias and Double Learning
 * In Q-learning and Sarsa, a maximum over estimated values is used implicitly as an estimate of the maximum value, which can lead to a significant positive bias.

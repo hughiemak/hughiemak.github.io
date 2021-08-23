@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dynamic Programming"
+title:  "Dynamic Programming (Sutton & Barto)"
 date:   2021-01-17 00:02
 ---
 * A collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as an MDP.
@@ -26,10 +26,10 @@ $
 $
 * Use the Bellman equation for $v_\pi$ as an update rule
 
-$$\begin{align}
+$$\begin{align*}
 v_{k+1}(s)&=\E_\pi [R_{t+1}+\gamma v_k (S_{t+1})\mid S_t=s] \\
 &=\sum_a \pi(a\mid s) \sum_{s', r} p(s',r\mid s,a)[r+\gamma v_k(s')]
-\end{align}$$
+\end{align*}$$
 
 * The sequence $$\{v_k\}$$ can be shown in general converge to $v_\pi$ as $k\rightarrow \infty$ under the same conditions that guarantee the existence of $v_\pi$.
 * All the updates done in DP algorithms are called expected updates because they are based on an expectation over all possible next states rather than on a sample next state.
@@ -39,10 +39,10 @@ v_{k+1}(s)&=\E_\pi [R_{t+1}+\gamma v_k (S_{t+1})\mid S_t=s] \\
 * The iterative policy evaluation should be halted at some point: compute $\max_{s\in \S} \mid v_{k-1}(s)-v_k(s) \mid$ after each sweep and stops when it is sufficiently small.
 * Bellman equation as an update rule for $q$
 
-$$\begin{align}
+$$\begin{align*}
 q_{k+1}(s,a) &= \E_\pi [R_{t+1} + \gamma G_{t+1} \mid S_t=s, A_t=a]\\
 &= \sum_{s',r} p(s',r\mid s,a) \left[r+\gamma\sum_{a'}\pi(a'\mid s')q_k(s',a') \right]
-\end{align}$$
+\end{align*}$$
 
 ### 4.2 Policy Improvement
 * After finding the value function for a policy, we want to know whether or not we should change the policy to detereministically chose an action $a\neq \pi(s)$.
@@ -56,11 +56,11 @@ If there are two determistic policies $$\pi$$ and $$\pi^\prime$$, and $$q_\pi(s,
 (Strict inequality) If $$q_\pi(s, \pi^\prime(s)) > v_\pi(s)$$ for some state $s\in \S$, then $$v_{\pi^\prime}(s) > v_\pi(s)$$.
 * Greedy policy $\pi'$
 
-$$\begin{align}
+$$\begin{align*}
 \pi'(s) &= \underset{a}\argmax q_\pi(s,a)\\
 &=\underset{a}\argmax \E[R_{t+1}+\gamma v_\pi(S_{t+1})\mid S_t=s,A_t=a]\\
 &= \underset{a}\argmax \sum_{s',r} p(s',r \mid s,a) [r+\gamma v_\pi(s')]
-\end{align}$$
+\end{align*}$$
 
 * The greedy policy $\pi'$ takes the action that looks best in the short term -- after one step of lookahead -- acoording to $v_\pi$. By construction, $\pi'$ meets the conditions of the policy improvement theorem, so it is at least as good as $\pi$.
 * When $v_\pi=v_\pi'$, $v_\pi=v_\pi'=v_*$ and $\pi=\pi'$ is an optimal policy.
@@ -82,20 +82,20 @@ $$\begin{align}
 * In value iteration, policy evaluation is stopped after just one sweep.
 * Can be written as a simple update operation that combines the policy improvement and __truncated policy evaluation__ steps:
 
-$$\begin{align}
+$$\begin{align*}
 v_{k+1}(s)&= \max_a \E[R_{t+1}+\gamma v_k(S_{t+1})\mid S_t=s, A_t=a]\\
 &=\max_a \sum_{s',r} p(s',r\mid s,a)[r+\gamma v_k(s')] && \text{for all $s\in \S$ }
-\end{align}$$ 
+\end{align*}$$ 
 
 * obtained simply by turning the Bellman optimality equation into an update rule.
 ![]({{ '/assets/images/unlisted/value-iteration-pseudocode.png' | relative_url }}){: style="width: 100%;" class="center"}
 * effectively combines, in each sweeps, one sweep of policy evaluation and one sweep of policy improvement.
 * Value iteration update for action values:
 
-$$\begin{align}
+$$\begin{align*}
 q_{k+1}(s,a)&=\E[R_{t+1}+\gamma \max_a q_k(s',a')]\\
 &=\sum_{s',r}p(s',r\mid s,a)[r+\gamma max_{a'}q_k(s',a')] && \text{for all $s\in \S$, $a\in A(s)$}
-\end{align}$$
+\end{align*}$$
 
 ### 4.5 Asynchronous Dynamic Programming
 * If the state set is very large, then even a single sweep can be prohibitively expensive.

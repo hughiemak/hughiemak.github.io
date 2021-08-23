@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Policy Improvement Theorem"
+title:  "Policy Improvement Theorem (Sutton & Barto)"
 date:   2021-01-10
 ---
 (Personal notes of Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction; 2nd Edition. 2017. p.78)
@@ -11,7 +11,7 @@ Furthermore, if $$q_\pi(s, \pi^\prime(s)) > v_\pi(s)$$ for some $$s \in \mathcal
 
 Proof:
 
-$$\begin{align}
+$$\begin{align*}
 v_\pi(s) &\leq q_\pi(s, \pi^\prime(s))\\
 &= \mathbb{E}[R_{t+1} + \gamma v_\pi(S_{t+1}) \mid S_t=s, A_t=\pi^\prime(s)]\\
 &= \mathbb{E}_{\pi^\prime}[R_{t+1} + \gamma v_\pi(S_{t+1})\mid S_t=s]\\
@@ -22,7 +22,7 @@ v_\pi(s) &\leq q_\pi(s, \pi^\prime(s))\\
 &...\\
 &\leq \mathbb{E}_{\pi^\prime}[R_{t+1}+\gamma R_{t+2} + \gamma^2 R_{t+3} + \gamma^3 R_{t+4} + ... \mid S_t=s]\\
 &=v_{\pi^\prime}(s)
-\end{align}$$
+\end{align*}$$
 
 <h3>References</h3>
 

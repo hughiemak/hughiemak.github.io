@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multi-armed Bandits"
+title:  "Multi-armed Bandits (Sutton & Barto)"
 date:   2021-01-17
 ---
 

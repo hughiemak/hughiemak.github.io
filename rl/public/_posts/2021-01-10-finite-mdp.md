@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finite Markov Decision Processes"
+title:  "Finite Markov Decision Processes (Sutton & Barto)"
 date:   2021-01-17 00:01
 ---
 ### 3.1 The Agent-Environment Interface 
@@ -111,10 +111,10 @@ $$q_\pi(s, a)=\E_\pi[G_t\mid S_t=s, A_t=a]=\E\left[\sum_{k=0}^{\infty} \gamma^k 
 
 * __$v_\pi$ in terms of $q_\pi$__
 
-$$\begin{align}
+$$\begin{align*}
 v_\pi(s) &= \E[q_\pi(s, A_t)]\\
 &= \sum_a \pi(a\mid s)q_\pi(s,a)
-\end{align}$$
+\end{align*}$$
 
 <div class="box">
 The value of a state depends on the values of the actions possible in that state and on how likely each action is to be taken under the current policy. 
@@ -123,10 +123,10 @@ The value of a state depends on the values of the actions possible in that state
 
 * __$q_\pi$ in terms of $v_\pi$__
 
-$$\begin{align}
+$$\begin{align*}
 q_\pi(s,a)&=\E[R_{t+1} + \gamma v_\pi(S_{t+1}) \mid S_t=s, A_t=a]\\
 &=\sum_{s',r} p(s',r\mid s,a)(r+\gamma v_\pi(s'))
-\end{align}$$
+\end{align*}$$
 
 <div class="box">
 The value of an action depends on the next reward, the values of the possible next states and on how likely it is to transition into each next state.
@@ -135,57 +135,57 @@ The value of an action depends on the next reward, the values of the possible ne
 
 * __Bellman equation for $v_\pi$__: for any policy and state, the following consistency condition holds between the value of $s$ and the value of its possible successor states $s'$
 
-$$\begin{align}
+$$\begin{align*}
 v_\pi(s)&=\E_\pi [R_{t+1}+\gamma G_{t+1}\mid S_t=s] \\
 &=\E_\pi [R_{t+1}+\gamma v_\pi (S_{t+1})\mid S_t=s] \\
 &=\sum_a \pi(a\mid s) \sum_{s', r} p(s',r\mid s,a)[r+\gamma v_\pi(s')]
-\end{align}$$
+\end{align*}$$
 
 * The Bellman equation states that the value of the start state must equal the (discounted) value of the expected next state, plus the reward expected along the way.
 * Backup diagram for $v_\pi$
 ![]({{ '/assets/images/unlisted/backup-diagram-vpi.png' | relative_url }}){: style="width: 30%;" class="center"}
 * __Bellman equation for $q_\pi$__
 
-$$\begin{align}
+$$\begin{align*}
 q_\pi(s,a) &= \E_\pi[R_{t+1} + \gamma G_{t+1} \mid S_t=s, A_t=a]\\
 &= \E[R_{t+1} + \gamma v_\pi(S_{t+1}) \mid S_t=s, A_t=a]\\
 &= \sum_{s',r} p(s',r\mid s,a) \left[r+\gamma\sum_{a'}\pi(a'\mid s')q_\pi(s',a') \right]
-\end{align}$$
+\end{align*}$$
 
 ### 3.6 Optimal Policies and Optimal Value Functions
 * A policy $\pi$ is defined to be better than or equal to a policy $\pi'$ if its expected return is greater than or equal to that of $\pi'$ for all states.
 
-$$\begin{align}\pi \geq \pi' \text{ if and only if } v_\pi(s) \geq v_{\pi'}(s) && \text{ for all } s \in \S\end{align}$$
+$$\begin{align*}\pi \geq \pi' \text{ if and only if } v_\pi(s) \geq v_{\pi'}(s) && \text{ for all } s \in \S\end{align*}$$
 
 * __Optimal policy $\pi_*$__: There is always at least one policy that is better than or equal to all other policies.
 * __Optimal state-value function__
 
-$$\begin{align}v_*(s)=\max_\pi v_\pi(s) \end{align}$$
+$$\begin{align*}v_*(s)=\max_\pi v_\pi(s) \end{align*}$$
 
 * __Optimal action-value function__
 
-$$\begin{align}
+$$\begin{align*}
 q_*(s,a) = & \max_\pi q_\pi (s, a) \\
 = & \E[R_{t+1}+\gamma v_*(S_{t+1})\mid S_t=s, A_t=a]
-\end{align}$$
+\end{align*}$$
 
 * Because $v_*$ is the value function for a policy, it must satisfy the self-consistency condition given by the Bellman equation for state values.
 * Because it is the optimal value function, it can be written without reference to any specific policy.
 * __Bellman optimality equation for $v_*$__
 
-$$\begin{align}
+$$\begin{align*}
 v_*(s)&=\max_{a\in \A(s)} q_{\pi_*} (s,a)\\
 & = \max_a \E_{\pi_*}[R_{t+1}+\gamma G_{t+1} \mid S_t=s, A_t=a]\\
 & = \max_a \E_{\pi_*}[R_{t+1}+\gamma v_{\pi_*}(S_{t+1}) \mid S_t=s, A_t=a]\\
 & = \max_a \sum_{s',r} p(s',r\mid s,a) [r+\gamma v_*(s')]
-\end{align}$$
+\end{align*}$$
 
 * __Bellman optimality equation for $q_*$__
 
-$$\begin{align}
+$$\begin{align*}
 q_*(s,a) &= \E \left[ R_{t+1}+\gamma \max_{a*} q_*(S_{t+1}, a') \mid S_t=s, A_t=a \right]\\
 &= \sum_{s',r} p(s',r\mid s,a) \left[ r + \gamma \max_{a'} q_*(s',a') \right]
-\end{align}$$
+\end{align*}$$
 
 * For finite MDPs, the Bellman optimality equation for $v_*$ has a unique solution.
 * If the dynamic function is given, it is actually a system of equations, one for each state.
@@ -208,17 +208,17 @@ $$\pi_*(s)=\argmax_a q_*(s,a)$$
 * In RL we typically has to settle for approximate solutions.
 * __$v_* $ in terms of $q_* $__
 
-$$\begin{align}
+$$\begin{align*}
 v_*(s) 
 &= \sum_a \pi(a\mid s)q_*(s,a)
-\end{align}$$
+\end{align*}$$
 
 * __$q_* $ in terms of $v_* $__
 
-$$\begin{align}
+$$\begin{align*}
 q_\pi(s,a)
 &=\sum_{s',r} p(s',r\mid s,a)(r+\gamma v_*(s'))
-\end{align}$$
+\end{align*}$$
 
 * Other Bellman equations
 ![]({{ '/assets/images/unlisted/other-bellman-equations.png' | relative_url }}){: style="width: 60%;" class="center"}
