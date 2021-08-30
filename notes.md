@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Notes
-permalink: /notes/
+title: Archive
+permalink: /archive/
 ---
