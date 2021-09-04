@@ -37,7 +37,7 @@ $\mu(s)$ is the fraction of time state $s$ is visited under the policy.
 $$\w_{t+1}\doteq \w_t -\alpha \nabla J(w_t)$$
 
 * The global minimum does not necessarily correspond to the true value function.
-* Limited by the choice of function parameteriation, depends on the choice of objective.
+* Limited by the choice of function parameterization, depends on the choice of objective.
 
 #### Gradient of a Linear Value Function
 
