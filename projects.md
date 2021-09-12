@@ -44,7 +44,7 @@ img="../assets/images/projects/chomp3.png" %}
 
 {% include project-item.html 
 content=
-"A summer research internship in which I trained a Transformer for translating text from the written language (Chinese) to the spoken language (Cantonese) in Hong Kong. 
+"A summer research internship in which I studied NMT architectures, collected parallel text resources, and trained a Transformer for translating text from the written language (Chinese) to the spoken language (Cantonese) in Hong Kong. 
 
 Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to increase the amount of training data by mining semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia.
 
@@ -82,11 +82,11 @@ img="../assets/images/projects/logistic-regression.png" %}
 content="A web app for playing Reversi built with Socket.IO. Players can create rooms/join rooms and play with others in real time over the internet. They can also chat with others and create accounts to view their game statistics.
 
 [[App](https://hughiemak.github.io/reversi/){:target=\"_blank\"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target=\"_blank\"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target=\"_blank\"}] [[Auth Server Code](https://github.com/hughiemak/reversi-auth){:target=\"_blank\"}]"
-img="../assets/images/projects/reversi-play.png" %}
+img="../assets/images/projects/reversi-play.png" %} -->
 
 #### >> Xiang Qi Simulator
 {% include project-item.html
 content="Xiang Qi (the Chinese chess) is a popular board game in Asia. This is a simple web simulator for Xiang Qi.
 
 [[App](https://hughiemak.github.io/xiangqi/){:target=\"_blank\"}] [[GitHub](https://github.com/hughiemak/xiangqi){:target=\"_blank\"}]"
-img="../assets/images/projects/xiangqi.png" %} -->
+img="../assets/images/projects/xiangqi.png" %}
