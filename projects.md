@@ -76,13 +76,13 @@ img="../assets/images/projects/logistic-regression.png" %}
 
 <!-- Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target="_blank"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target="_blank"}] -->
 
-<!-- #### >> Real-Time Reversi Web App
+#### >> Real-Time Reversi Web App
 
 {% include project-item.html
 content="A web app for playing Reversi built with Socket.IO. Players can create rooms/join rooms and play with others in real time over the internet. They can also chat with others and create accounts to view their game statistics.
 
 [[App](https://hughiemak.github.io/reversi/){:target=\"_blank\"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target=\"_blank\"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target=\"_blank\"}] [[Auth Server Code](https://github.com/hughiemak/reversi-auth){:target=\"_blank\"}]"
-img="../assets/images/projects/reversi-play.png" %} -->
+img="../assets/images/projects/reversi-play.png" %}
 
 #### >> Xiang Qi Simulator
 {% include project-item.html
