@@ -46,7 +46,7 @@ img="../assets/images/projects/chomp3.png" %}
 content=
 "A summer research internship in which I studied NMT architectures, collected parallel text resources, and trained a Transformer for translating text from the written language (Chinese) to the spoken language (Cantonese) in Hong Kong. 
 
-Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to increase the amount of training data by mining semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia.
+Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to mine pairs of semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia and showed that including these sentence pairs in training improves translation performance.
 
 [Paper] (Available on ACM Digital Library at the end of Jan, 2022)"  
 
