@@ -4,7 +4,9 @@ a:hover,.site-title:hover { color: #111; text-decoration: None}
 
 body {
     text-align: justify;
-    font-family: 'Titillium Web', -apple-system, Helvetica, 'EB Garamond', BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+    font-family: 'Helvetica', 'Titillium Web', -apple-system, Helvetica, 'EB Garamond', BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+    color: $text-color;
+    font-weight: 300;
 }
 
 .page-link {
@@ -19,7 +21,7 @@ body {
 .site-title, .site-title:visited { 
     // font-family: Raleway, Inconsolata, Ubuntu Mono; 
     font-weight: bold;
-    // color: white;
+    color: #444;
 }
 
 .project-item-container {
