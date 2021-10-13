@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-#### >> Deep Q-Learning in Cooperative Multi-Agent Reinforcement Learning
+#### Deep Q-Learning in Cooperative Multi-Agent Reinforcement Learning
 
 {% include project-item.html 
 content=
@@ -25,7 +25,7 @@ A personal project in which I implemented the predator prey environment and inde
 [[Code](https://github.com/hughiemak/predator-prey){:target="_blank"}]
 </div></div></div> -->
 
-#### >> Solving Chomp with Policy Iteration
+#### Solving Chomp with Policy Iteration
 
 <!-- A personal project in which I applied policy iteration to recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target="_blank"} via self-play.
 
@@ -33,14 +33,16 @@ A personal project in which I implemented the predator prey environment and inde
 
 {% include project-item.html 
 content=
-"A personal project in which I applied policy iteration to recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target=\"_blank\"} via self-play.
+"In the game of [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target=\"_blank\"}, it can be proven that the first player has a winning strategy without finding out such a strategy. In fact, the strategy is not trivial at all. This motivated the idea of searching for a winning strategy using RL. I defined an environment that simulates the game, then applied policy iteration to extract an optimal strategy for the first player via self-play.
 
 [[Report](https://gist.github.com/hughiemak/58bca80976cc3c7dc1dbbafce6fed0f6){:target=\"_blank\"}] [[GitHub](https://github.com/hughiemak/chomp){:target=\"_blank\"}]"  
 
 img="../assets/images/projects/chomp3.png" %}
 
+<!-- A personal project in which I applied policy iteration to recover the nontrivial winning strategy of the first player in [Chomp](https://www.math.ucla.edu/~tom/Games/chomp.html){:target=\"_blank\"} via self-play. -->
 
-#### >> Low-Resource NMT System for Chinese-to-Cantonese Translation
+
+#### Low-Resource NMT System for Chinese-to-Cantonese Translation
 
 {% include project-item.html 
 content=
@@ -56,7 +58,7 @@ img="../assets/images/projects/nmt3.png" %}
 
 Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to increase the amount of training data by mining semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia. -->
 
-#### >> Visualizing Linear and Logistic Regression
+#### Visualizing Linear and Logistic Regression
 
 Interactive visualization of linear regression and logistic regression (motivated by tutorials from YouTube channel *The Coding Train*).
 
@@ -76,7 +78,7 @@ img="../assets/images/projects/logistic-regression.png" %}
 
 <!-- Logistic Regression: [[App](https://hughiemak.github.io/VisualizeLogisticRegression/){:target="_blank"}] [[Code](https://github.com/hughiemak/VisualizeLogisticRegression){:target="_blank"}] -->
 
-#### >> Real-Time Reversi Web App
+#### Real-Time Reversi Web App
 
 {% include project-item.html
 content="A web app for playing Reversi built with Socket.IO. Players can create rooms/join rooms and play with others in real time over the internet. They can also chat with others and create accounts to view their game statistics.
@@ -84,7 +86,7 @@ content="A web app for playing Reversi built with Socket.IO. Players can create 
 [[App](https://hughiemak.github.io/reversi/){:target=\"_blank\"}] [[Frontend Code](https://github.com/hughiemak/reversi){:target=\"_blank\"}] [[Server Code](https://github.com/hughiemak/reversi-socket-io-server){:target=\"_blank\"}] [[Auth Server Code](https://github.com/hughiemak/reversi-auth){:target=\"_blank\"}]"
 img="../assets/images/projects/reversi-play.png" %}
 
-#### >> Xiang Qi Simulator
+#### Xiang Qi Simulator
 {% include project-item.html
 content="Xiang Qi (the Chinese chess) is a popular board game in Asia. This is a simple web simulator for Xiang Qi.
 
