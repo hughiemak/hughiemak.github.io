@@ -4,6 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
+#### Minimax with Alpha-Beta Pruning for Connect 4
+
+
+{% include project-item.html 
+content=
+"Python implementation of a Connect 4 AI agent using alpha-beta pruning. 
+
+[[GitHub](https://github.com/hughiemak/alphabeta-connect4){:target=\"_blank\"}]" 
+
+img="../assets/images/projects/connect4.gif" %} 
+
 #### Deep Q-Learning in Cooperative Multi-Agent Reinforcement Learning
 
 {% include project-item.html 
