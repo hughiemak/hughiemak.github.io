@@ -61,7 +61,8 @@ content=
 
 Parallel text resources in Chinese and Cantonese are scarce. In addition to collecting data from existing studies, I explored the possibility to mine pairs of semantically similar sentences from parallel articles on Chinese and Cantonese Wikipedia and showed that including these sentence pairs in training improves translation performance.
 
-[[Best Presentation Award](https://drive.google.com/file/d/1O9eJjNXD6tir6wfRHPwHXelqK8zHSXoW/view?usp=sharing){:target=\"_blank\"}] [Paper]"  
+[[Paper](https://dl.acm.org/doi/10.1145/3508230.3508242){:target=\"_blank\"}]
+[[Best Presentation Award](https://drive.google.com/file/d/1O9eJjNXD6tir6wfRHPwHXelqK8zHSXoW/view?usp=sharing){:target=\"_blank\"}]"  
 
 img="../assets/images/projects/nmt3.png" %}
 
