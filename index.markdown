@@ -2,7 +2,7 @@
 layout: page
 ---
 
-I am currently a Master student in Computer Science at ETH Zürich. My research interests are natural language processing (NLP) and reinforcement learning (RL). 
+I am currently a Master student in Computer Science at ETH Zürich. My research interests are security of ML models, natural language processing (NLP) and reinforcement learning (RL). 
 
 Previously, I have completed my bachelor's degree in Computer Science at the Chinese University of Hong Kong. I published a paper on Chinese-to-Cantonese neural machine translation as the first author and worked as a research intern on applying RL techniques to decode error correction codes at UCSD.
 
