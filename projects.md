@@ -4,8 +4,24 @@ title: Projects
 permalink: /projects/
 ---
 
-#### Minimax with Alpha-Beta Pruning for Connect 4
+#### Basketball Tactical Analysis Dashboard
 
+{% include project-item.html 
+content=
+"An interactive dashboard that allows coaches to perform what-if analyses on various tactical game situations. The ML model was trained on real-world basketball game data to predict winning probabilities and generate counterfactual explanations based on team tactical statistics."
+
+img="../assets/images/projects/b11-dashboard-image-predict.png" %} 
+
+#### Backdoor Attack against BIRD in Deep RL
+
+{% include project-item.html 
+content=
+"Proposed a novel technique to break down the defence of [BIRD](https://proceedings.neurips.cc/paper_files/paper/2023/hash/802e90325f4c8546e13e5763b2ecab88-Abstract-Conference.html){:target=\"_blank\"} against backdoor RL agents. Compared its effectiveness against the vanilla perturbation-based attack [TrojDRL](https://arxiv.org/abs/1903.06638){:target=\"_blank\"}."
+
+img="../assets/images/projects/forl-breakout-attack.gif" %} 
+
+
+#### Minimax with Alpha-Beta Pruning for Connect 4
 
 {% include project-item.html 
 content=
