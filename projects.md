@@ -8,9 +8,8 @@ permalink: /projects/
 
 {% include project-item.html 
 content=
-"An interactive dashboard that allows coaches to perform what-if analyses on various tactical game situations. The ML model was trained on real-world basketball game data to predict winning probabilities and generate counterfactual explanations based on team tactical statistics."
-
-img="../assets/images/projects/b11-dashboard-image-predict.png" %} 
+"An [interactive dashboard](http://b11-tactical-insights-basketball.course-xai-iml24.isginf.ch/){:target=\"_blank\"} that allows coaches to perform what-if analyses on various tactical game situations. The ML model was trained on real-world basketball game data to predict winning probabilities and generate counterfactual explanations based on team tactical statistics. "
+img="../assets/images/projects/b11-dashboard-image-predict.png" %}
 
 #### Backdoor Attack against BIRD in Deep RL
 
