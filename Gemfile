@@ -7,7 +7,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.2.0"
+# gem "jekyll", "~> 4.4.1"
+gem "faraday", "~> 1.10"   # last 1.x version that works with github-pages
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
